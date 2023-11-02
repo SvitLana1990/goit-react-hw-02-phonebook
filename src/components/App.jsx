@@ -1,4 +1,4 @@
-import { GlobalStyle } from './GlobalStyle';
+import { GlobalStyle } from '../GlobalStyle';
 
 export const App = () => {
   return (
