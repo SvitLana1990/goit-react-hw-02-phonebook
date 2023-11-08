@@ -7,10 +7,6 @@ const theme = {
   colors: {
     white: '#ffffff',
     black: '#000000',
-    beige: '#e5deca',
-    green: '#008f39',
-    orange: '#ffa500',
-    grey: '#808080',
     red: '#FF0000',
     blue: '#0000FF',
   },

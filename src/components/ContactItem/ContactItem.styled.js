@@ -14,6 +14,12 @@ export const DeleteButton = styled.button`
   border: 2px solid ${p => p.theme.colors.blue};
   border-radius: 4px;
   color: ${p => p.theme.colors.red};
+  &:hover,
+  &:focus {
+    color: ${p => p.theme.colors.white};
+    background: ${p => p.theme.colors.red};
+    border: 2px solid ${p => p.theme.colors.red};
+  }
 `;
 
 export const ContactInfo = styled.span`

@@ -41,4 +41,9 @@ export const Button = styled.button`
   border: 2px solid ${p => p.theme.colors.blue};
   border-radius: 4px;
   color: ${p => p.theme.colors.white};
+  &:hover,
+  &:focus {
+    color: ${p => p.theme.colors.blue};
+    background: ${p => p.theme.colors.white};
+  }
 `;

@@ -3,11 +3,6 @@ import 'modern-normalize';
 
 export const GlobalStyle = createGlobalStyle`
   body {
-    /* Чому не працює?
-    background-image: url(./background-image.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
